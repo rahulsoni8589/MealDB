@@ -1,0 +1,198 @@
+*{
+  margin: 0px;
+  background-color: #2D2013;
+  box-sizing: border-box;
+}
+
+/* Navigation bar */
+
+.navigationBar{
+  background-color: #23180D;
+  height: 15vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+
+.navigationBar .title{
+  background-color: #23180D;
+}
+
+.navigationBar .title h1{
+  color: #FFA844;
+  background-color: #23180D;
+
+}
+
+
+.navigationBar .tabs{
+  transform: scale(1.3);
+  background-color: #23180D;
+
+}
+
+
+.navigationBar .tabs button{
+  background-color: #C52D2F;
+  border: 1px solid #C52D2F;
+  margin: 7px;
+  padding: 5px;
+  border-radius: 5%;
+  color: white;
+
+}
+
+.navigationBar .tabs select{
+  background-color: #C52D2F;
+  border: 1px solid #C52D2F;
+  margin: 7px;
+  padding: 4px;
+  color: white;
+  height: 30px;
+  width: 150px;
+  cursor:pointer;
+
+}
+
+.navigationBar .tabs select option{
+  background-color: #FFA844;
+
+}
+
+.navigationBar .tabs button:hover{
+  background-color: lightsalmon;
+}
+
+
+/* search panel */
+
+.searchmeal .line{
+  border: 1px solid white;
+  width: 75%;
+  margin: auto;
+}
+
+.searchmeal #searchmeal{
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
+}
+
+.searchmeal #searchmeal input{
+    position: relative;
+    top: 10px;
+    height: 40px;
+    width: 20%;
+    background-color: white;
+    border: 2px solid white;
+}
+
+.searchmeal #searchmeal #searchbutton{
+  position: relative;
+  height: 43px;
+  top: 8px;
+  background-color: wheat;
+  border: 2px solid azure;
+}
+
+.searchmeal #searchmeal #searchbutton i{
+  color: black;
+  background-color: wheat;
+  
+}
+
+.searchmeal #searchmeal #searchbutton:hover{
+  background-color: red;
+
+}
+
+.searchmeal #searchmeal #searchbutton i:hover{
+  background-color: red;
+
+}
+
+.searchmeal .info{
+  width: 75%;
+  margin: auto;
+  color: white;
+  text-align: center;
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+}
+
+/* Dishes section */
+
+.meals{
+  height: auto;
+  width: 75%;
+  padding: 10px;
+  margin: auto;
+  margin-top: 10px;
+  /* border: 2px solid white; */
+}
+
+.meals .statustype{
+  text-align: center;
+  color: white;
+  font-size: 0.9rem;
+  flex-grow: 5;
+
+}
+
+.meals #dishes{
+  height: auto;
+  width: 100%;
+  margin-top: 20px;
+  /* border: 2px solid blue; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-evenly;
+  cursor:pointer;
+
+}
+.meals #dishes .dish{
+  height: auto;
+  width: 25%;
+  max-width: 200px;
+  min-width: 150px;
+  margin: 10px;
+  text-align: center;
+  font-size: 0.9em;
+  color: #f9bd4e;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* border: 2px solid red; */
+}
+
+
+.meals #dishes .dish:hover{
+  transform: scale(1.2);
+
+  /* border: 10px solid red; */
+}
+
+.meals .dish img{
+  width: 100%;
+  height: 80%;
+}
+
+i{
+  float: right;
+  height: 1.2rem;
+  width: 1.5rem;
+  margin-right: 5px;
+  color: white;
+}
+
+i:hover{
+  color: red;
+}
+
+.heart{
+ color:#C52D2F;
+}
+
+
+
